@@ -8,11 +8,13 @@ import android.widget.Button;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModelProvider;
 
 import dam.gtidic.examenfinal2122.R;
 import dam.gtidic.examenfinal2122.databinding.ActivityAdventureBinding;
 import dam.gtidic.examenfinal2122.usecases.game.math.GameActivityMath;
+import dam.gtidic.examenfinal2122.utils.PreferencesProvider;
 
 public class AdventureActivity extends AppCompatActivity {
 
@@ -25,8 +27,15 @@ public class AdventureActivity extends AppCompatActivity {
         setContentView(R.layout.activity_adventure);
         setup();
         data();
+
+        PreferencesProvider.init(this);
+        PreferencesProvider.providePreferences().edit().putInt("vides", 0);
+
+
+
     }
-    Button sumarvides= findViewById(R.id.mathAdventureButton);
+
+
 
 
     // Private methods

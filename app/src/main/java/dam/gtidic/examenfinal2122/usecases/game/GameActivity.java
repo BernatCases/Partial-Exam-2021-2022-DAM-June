@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import dam.gtidic.examenfinal2122.databinding.ActivityGameBinding;
 import dam.gtidic.examenfinal2122.usecases.adventure.AdventureActivity;
+import dam.gtidic.examenfinal2122.utils.PreferencesProvider;
 
 public abstract class GameActivity extends AppCompatActivity {
 
