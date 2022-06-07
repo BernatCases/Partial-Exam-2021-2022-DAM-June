@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Bernat/AndroidStudioProjects/Partial-Exam-2021-2022-DAM-June/app/src/main/res/layout/activity_adventure.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/Bernat/AndroidStudioProjects/Partial-Exam-2021-2022-DAM-June/app/src/main/res/layout/activity_game.xml" value="0.10507246376811594" />
+        <entry key="..\:/Users/Bernat/AndroidStudioProjects/Partial-Exam-2021-2022-DAM-June/app/src/main/res/layout/math_layout.xml" value="0.10507246376811594" />
         <entry key="app/src/main/res/drawable/splash_background.xml" value="0.1995" />
         <entry key="app/src/main/res/layout/activity_adventure.xml" value="0.39715394566623546" />
         <entry key="app/src/main/res/layout/activity_game.xml" value="0.2296875" />

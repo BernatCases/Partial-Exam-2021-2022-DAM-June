@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,6 +26,8 @@ public class AdventureActivity extends AppCompatActivity {
         setup();
         data();
     }
+    Button sumarvides= findViewById(R.id.mathAdventureButton);
+
 
     // Private methods
     private void setup(){
@@ -48,7 +51,7 @@ public class AdventureActivity extends AppCompatActivity {
         Log.d(this.getClass().getSimpleName(),"...data() ");
     }
 
-    private void showMathAdventure(View view){
+    public void showMathAdventure(View view){
             startActivity( new Intent(this, GameActivityMath.class));
     }
 
