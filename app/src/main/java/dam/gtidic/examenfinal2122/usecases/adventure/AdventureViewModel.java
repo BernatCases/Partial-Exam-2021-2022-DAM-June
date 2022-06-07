@@ -26,7 +26,7 @@ public class AdventureViewModel extends ViewModel {
 
     public void sumarvida() {
 
-        Integer lifes= vides.setValue(PreferencesProvider.providePreferences().getInt("vides", vides +1 ));
+        Integer lifes= vides.setValue(PreferencesProvider.providePreferences().getInt("vides", vides + 1 ));
 
     }
 }
